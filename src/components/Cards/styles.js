@@ -9,7 +9,8 @@ export default StyleSheet.create({
         alignItems: "center",
         flexDirection: "row",
         marginVertical: 10,
-        marginLeft: 7
+        marginLeft: 7,
+        marginRight: 7
 
     },
     expandidoPoluicao: {
@@ -32,6 +33,7 @@ export default StyleSheet.create({
         flexDirection: "column",
         marginVertical: 10,
         paddingVertical: 20,
+        paddingStart: 10
     },
     icone: {
         width: 30,
@@ -42,14 +44,12 @@ export default StyleSheet.create({
     desmatamento: {
         fontSize: 18,
         fontWeight: "400",
-        lineHeight: 42,
         color: "#FFF",
-        paddingLeft: 86
+        marginLeft: 80,
     },
     transito: {
         fontSize: 18,
         fontWeight: "400",
-        lineHeight: 42,
         color: "#FFF",
         paddingLeft: 114,
         marginRight: 33
@@ -57,10 +57,13 @@ export default StyleSheet.create({
     poluicao: {
         fontSize: 18,
         fontWeight: "400",
-        lineHeight: 42,
         color: "#FFF",
-        paddingLeft: 90,
-        marginRight: 10
+        marginLeft: 80,
+    },
+    setaDesmatamento:{
+        width: 40,
+        height: 35,
+        marginLeft: 55,
     },
     seta:{
         width: 40,

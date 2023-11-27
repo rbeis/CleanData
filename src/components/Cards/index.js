@@ -67,7 +67,7 @@ class Cards extends React.Component {
     render() {
         return (
             <>
-                <ScrollView style={{ width: "100%" }}>
+                <ScrollView style={{ width: "100%" }} showsVerticalScrollIndicator={false}>
                     <TouchableOpacity
                         style={[styles.container, this.state.desmatamentoExpandido && styles.expandidoDesmatamento]}
                         onPress={() => this.toggleExpansao('desmatamentoExpandido')}
@@ -79,7 +79,7 @@ class Cards extends React.Component {
                                 <Image
                                     source={Seta}
                                     style={[
-                                        styles.seta
+                                        styles.setaDesmatamento
                                     ]}
                                 />
                             </>
